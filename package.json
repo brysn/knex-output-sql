@@ -1,0 +1,35 @@
+{
+  "name": "knex-output-sql",
+  "version": "0.1.4",
+  "description": "Outputs the SQL from knex migrations.",
+  "author": {
+    "name": "Bryson Armstrong",
+    "url": "https://github.com/brysn"
+  },
+  "bin": {
+    "knex-output-sql": "index.js"
+  },
+  "keywords": [
+    "sql",
+    "knex",
+    "query",
+    "migrations"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "private": false,
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "colorette": "^2.0.19",
+    "commander": "^9.3.0",
+    "getopts": "^2.3.0",
+    "interpret": "^3.0.0",
+    "liftoff": "3.1.0",
+    "mock-knex": "^0.4.11",
+    "sql-formatter": "^7.0.2",
+    "tildify": "^3.0.0"
+  },
+  "devDependencies": {
+    "knex": "^2.1.0"
+  }
+}
